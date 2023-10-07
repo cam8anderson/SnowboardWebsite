@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(37, 102, 130);
+  font-family: sans-serif;
+}
+
+.zoom-wrapper {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.zoom-wrapper img {
+  object-fit: cover;
+  transition: 0.8s;
+  height: 100%;
+}
+
+.zoom-wrapper:hover img {
+  transform: scale(1.5);
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h1 {
+  background-color: aliceblue;
+  margin: 5%;
+  background-size: auto;
+  border-radius: 16px;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(114, 199, 199);
+  border-color: rgb(20, 72, 72);
+  background-size: auto;
+}
